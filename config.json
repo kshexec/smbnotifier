@@ -1,0 +1,22 @@
+{
+  "mqtt": {
+    "ip": "<ip address/hostname here>",
+    "port": 1883,
+    "user": "<mqtt username>",
+    "password": "<mqtt password>",
+    "topic": "homeassistant/SMBNotifier"
+  },
+  "libraries": {
+    "Movies": [
+      "/path/to/Movies1",
+      "/path/to/Movies2"
+    ],
+    "Shows": [
+      "/path/to/Shows"
+    ],
+    "<Any other library, remove section if not needed>": [
+      "/path/to/library/folder1",
+      "/path/to/library/folder2"
+    ]
+  }
+}
